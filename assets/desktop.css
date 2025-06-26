@@ -19,11 +19,12 @@ main {
 #firstarticle {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px 0 0;
+  margin: 0 2em 0 1em;
 }
 h1 {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 3em;
 }
 p {
   color: #612406;
@@ -31,6 +32,6 @@ p {
 }
 #secondarticle {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
